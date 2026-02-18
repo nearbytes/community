@@ -1,6 +1,6 @@
 # Nearbytes Desktop
 
-**NOTE: this content is just an AI-generated summary of a submitted project proposal. Indepentently of the proposal's outcome we will start this initiative soon by producing usable software that finally decouples data storage and retrieving from *where* the data is kept (think friend-to-friedn distributed or even centralised, does not matter, really)**
+**NOTE: this content is just an AI-generated summary of a submitted project proposal. Indepentently of the proposal's outcome we will start this initiative soon by producing usable software that finally decouples data access from the physical location of the data**
 
 ## What
 
