@@ -2,6 +2,8 @@
 
 **NOTE: this content is just an AI-generated summary of a submitted project proposal. Indepentently of the proposal's outcome we will start this initiative soon by producing usable software that finally decouples data access from the physical location of the data**
 
+If you want to know more details, take a look at our [whitepaper](https://github.com/nearbytes/whitepaper)
+
 ## What
 
 **A shared encrypted friend-to-friend writable data space which is transparent on what disks you use (private, online, public, whatever can store data is Nearbytes storage) and what channels you use (from usb sticks to e-mail to google drive as a private transitory channel!).**
