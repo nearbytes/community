@@ -51,7 +51,6 @@ Lower the barrier to private, user‑sovereign data sharing by delivering an ope
 - Watch this repository for updates and discussions.
 - Open issues to share feedback, use‑cases, or feature requests.
 - Contribute via pull requests (examples, docs, prototypes, tooling).
-- Join community conversations through our normal Nearbytes channels.
 
 ## Roadmap highlights
 
