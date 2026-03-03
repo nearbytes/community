@@ -1,6 +1,6 @@
 # Nearbytes Desktop
 
-**NOTE: this content is just an AI-generated summary of a submitted project proposal. Indepentently of the proposal's outcome we will start this initiative soon by producing usable software that finally decouples data access from the physical location of the data**
+**NOTE: this content is just an AI-generated summary of a larger initiative. We are producing right now usable software that finally decouples data access from the physical location of the data**. If intersted, please do star the project and follow for update, or open issues.
 
 If you want to know more details, take a look at our [whitepaper](https://github.com/nearbytes/whitepaper)
 
