@@ -24,7 +24,7 @@ Lower the barrier to private, user‑sovereign data sharing by delivering an ope
   - Separates storage from transport for flexibility and resilience
   - Supports diverse communication channels (e.g., local, peer‑to‑peer, relays)
 
-- Collection‑Based Addressing (CBA)
+- Content‑Based Addressing (CBA)
   - Immutable, verifiable addressing for strong data integrity
   - Enables deduplication and efficient collaboration on shared data
 
