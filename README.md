@@ -1,5 +1,7 @@
 # Nearbytes Desktop
 
+This repository is a placeholder for people who are interested in nearbytes and want to watch it for updates.
+
 **NOTE: this content is just an AI-generated summary of a larger initiative. We are producing right now usable software that finally decouples data access from the physical location of the data**. If intersted, please do star the project and follow for update, or open issues.
 
 If you want to know more details, take a look at our [whitepaper](https://github.com/nearbytes/whitepaper)
