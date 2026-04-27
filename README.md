@@ -1,65 +1,56 @@
 # Nearbytes Desktop
 
-This repository is a placeholder for people who are interested in nearbytes and want to watch it for updates.
+This repository is a placeholder for people who are interested in nearbytes and want to watch it for updates. If intersted, please do star the project and follow for update, or open an issue to this repository for discussing ideas.
 
-**NOTE: this content is just an AI-generated summary of a larger initiative. We are producing right now usable software that finally decouples data access from the physical location of the data**. If intersted, please do star the project and follow for update, or open issues.
+If you want to know more details, take a look at our [whitepaper](https://github.com/nearbytes/whitepaper) or [whitepaper-extended](./nearbytes-whitepaper-v0.1.pdf), or watch our webpage:
 
-If you want to know more details, take a look at our [whitepaper](https://github.com/nearbytes/whitepaper)
+[https://nearbytes.github.io/nearbytes/]
 
 ## What
 
-**A shared encrypted friend-to-friend writable data space which is transparent on what disks you use (private, online, public, whatever can store data is Nearbytes storage) and what channels you use (from usb sticks to e-mail to google drive as a private transitory channel!).**
+Nearbytes is a **local-first, friend-to-friend architecture** for persistent encrypted data spaces.
+It separates:
+- **Storage**: immutable encrypted blocks, addressable and verifiable by hash
+- **State**: signed append-only events, replayed to reconstruct current files, chat, profiles, and app data
 
-Nearbytes is a privacy‑first, decentralized project focused on user‑controlled data sharing, sync, and backup. This initiative advances open, auditable technology that empowers people to keep full control of their data without platform lock‑in.
+The same hub can be reopened across devices and storage locations without depending on a central always-online service.
 
 
 ## Goal
 
-Lower the barrier to private, user‑sovereign data sharing by delivering an open protocol and a usable desktop application that:
-- Prioritizes privacy and local control
-- Avoids centralized dependencies
-- Contributes to the digital commons with open source code and documentation
+Make private collaboration and backup feel natural by providing an open protocol and usable app that:
+- Keeps users in control of data and keys
+- Avoids platform lock-in and single-service dependency
+- Makes replication, sync, and recovery data-driven and verifiable
 
 ## What this project does
 
-- Storage‑first, transmission‑agnostic design
-  - Separates storage from transport for flexibility and resilience
-  - Supports diverse communication channels (e.g., local, peer‑to‑peer, relays)
-
-- Content‑Based Addressing (CBA)
-  - Immutable, verifiable addressing for strong data integrity
-  - Enables deduplication and efficient collaboration on shared data
-
-- Friend‑to‑Friend backup
-  - Opt‑in, trust‑based peer backup among contacts
-  - Resilient by design without reliance on centralized services
-
-- Practical privacy
-  - End‑to‑end cryptography with keys under the user’s control
-  - Usability‑focused approach so privacy features are easy to use
-
-- Open ecosystem
-  - Protocol and reference implementations developed in the open
-  - Foundation for third‑party apps, tooling, and integrations
+- Uses immutable encrypted blocks as the durable storage substrate
+- Uses secret-derived hub identity and signatures for authenticated history
+- Reconstructs current state by replaying signed events (instead of mutating storage in place)
+- Supports transport-agnostic synchronization (local network, shared folders, removable media, cloud-backed folders, and more)
+- Enables friend-to-friend replication where peers can store opaque bytes without controlling hub authority
+- Keeps protocol and implementation open and inspectable
 
 ## Why it matters
 
-- User sovereignty: You control your data, how it’s shared, and where it lives.
-- Privacy by design: Cryptographic protection and local control as first principles.
-- Digital commons: Open standards and code that benefit the broader community.
+- **Continuity across devices:** reopen the same hub wherever encrypted data and history are available.
+- **Resilience by redundancy:** backup emerges from replication, not from one provider or one session staying online.
+- **Collaboration without lock-in:** sharing depends on trusted relationships and data validity, not platform membership.
+- **Auditability and recovery:** append-only signed history makes changes inspectable and replayable.
 
 ## How to get involved
 
-- Watch this repository for updates and discussions.
-- Open issues to share feedback, use‑cases, or feature requests.
-- Contribute via pull requests (examples, docs, prototypes, tooling).
+- Watch this repository for updates.
+- Open issues for feedback, use cases, and design discussion.
+- Contribute via pull requests to docs, prototypes, and tooling.
 
 ## Roadmap highlights
 
-- Usable desktop prototype for an initial photo‑sharing use case
-- Clear APIs/SDKs for developers and integrators
-- Documentation: how‑tos, security/threat model, benchmarks
-- Community onboarding: workshops, tutorials, early adopters
+- Evolve the desktop app, smartphone app, and core specifications in parallel
+- Expand hub projections (files, chat, profiles, and additional app protocols)
+- Improve sync, replay performance, and storage interoperability
+- Publish clearer implementation, security, and integration documentation
 
 ## License
 
@@ -67,4 +58,4 @@ Open source — contributions are welcome under this repository’s license.
 
 ## Contact
 
-Have questions or want to contribute? Open an issue or a pull request and mention the maintainers.
+Have questions or want to contribute? Open an issue or a pull request and mention the maintainers, or write to vincenzoml at gmail dot com.
