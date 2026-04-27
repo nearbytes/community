@@ -4,7 +4,7 @@ This repository is a placeholder for people who are interested in nearbytes and 
 
 If you want to know more details, take a look at our [whitepaper](https://github.com/nearbytes/whitepaper) or [whitepaper-extended](./nearbytes-whitepaper-v0.1.pdf), or watch our webpage:
 
-[https://nearbytes.github.io/nearbytes/]
+https://nearbytes.github.io/nearbytes/
 
 ## What
 
