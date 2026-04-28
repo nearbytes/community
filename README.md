@@ -1,5 +1,4 @@
-# Nearbytes Desktop
-
+# Nearbytes: a data-centric friend-to-friend decentralised storage and communication infrastructure
 This repository is a placeholder for people who are interested in nearbytes and want to watch it for updates. If intersted, please do star the project and follow for update, or open an issue to this repository for discussing ideas.
 
 If you want to know more details, take a look at our [whitepaper](https://github.com/nearbytes/whitepaper) or [whitepaper-extended](./nearbytes-whitepaper-v0.1.pdf), or watch our webpage:
