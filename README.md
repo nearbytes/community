@@ -50,10 +50,6 @@ Make private collaboration and backup feel natural by providing an open protocol
 - Improve sync, replay performance, and storage interoperability
 - Publish clearer implementation, security, and integration documentation
 
-## License
-
-Open source — contributions are welcome under this repository’s license.
-
 ## Contact
 
 Have questions or want to contribute? Open an issue or a pull request and mention the maintainers, or write to vincenzoml at gmail dot com.
