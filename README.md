@@ -31,8 +31,7 @@ Make private collaboration and backup feel natural by providing an open protocol
 - Enables friend-to-friend replication where peers can store opaque bytes without controlling hub authority
 - Keeps protocol and implementation open and inspectable
 
-## Why it matters
-
+## Goals
 - **Continuity across devices:** reopen the same hub wherever encrypted data and history are available.
 - **Resilience by redundancy:** backup emerges from replication, not from one provider or one session staying online.
 - **Collaboration without lock-in:** sharing depends on trusted relationships and data validity, not platform membership.
