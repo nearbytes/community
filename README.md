@@ -5,6 +5,8 @@ If you want to know more details, take a look at our [whitepaper](https://github
 
 https://nearbytes.github.io/nearbytes/
 
+The proof of concept app is available here: https://github.com/nearbytes/nearbytes-app and the specs (evovling) are at https://github.com/nearbytes/nearbytes-specs
+
 ## What
 
 Nearbytes is a **local-first, friend-to-friend architecture** for persistent encrypted data spaces.
