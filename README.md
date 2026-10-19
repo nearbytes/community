@@ -1,57 +1,54 @@
-# Nearbytes: a data-centric friend-to-friend decentralised storage and communication infrastructure
-This repository is a entry point for the Nearbytes project. If intersted, please star this project and follow for updates, or open an issue to this repository for discussing ideas.
+# Nearbytes
 
-If you want to know more details, take a look at our [whitepaper](https://github.com/nearbytes/whitepaper) or [whitepaper-extended](./nearbytes-whitepaper-v0.1.pdf), or watch our webpage:
+**A local-first, friend-to-friend architecture for persistent, encrypted, collaborative data spaces.**
 
-https://nearbytes.github.io/nearbytes/
+This repository is the entry point of the Nearbytes project: star or watch it to follow updates, and open an issue to discuss ideas, use cases or design.
 
-The proof of concept app is available here: https://github.com/nearbytes/nearbytes-app and the specs (evovling) are at https://github.com/nearbytes/nearbytes-specs
+| | |
+|---|---|
+| Website | https://nearbytes.github.io/nearbytes/ |
+| Paper | *Local-first Coordination via Friend-to-Friend Choreographies*, Journal of Logical and Algebraic Methods in Programming, 2026 — [doi:10.1016/j.jlamp.2026.101190](https://doi.org/10.1016/j.jlamp.2026.101190) |
+| Whitepaper | [nearbytes/whitepaper](https://github.com/nearbytes/whitepaper) · [extended version (PDF)](./nearbytes-whitepaper-v0.1.pdf) |
+| App (proof of concept) | [nearbytes/nearbytes-app](https://github.com/nearbytes/nearbytes-app) |
+| Specifications (evolving) | [nearbytes/nearbytes-specs](https://github.com/nearbytes/nearbytes-specs) |
 
-## What
+## The idea
 
-Nearbytes is a **local-first, friend-to-friend architecture** for persistent encrypted data spaces.
-It separates:
-- **Storage**: immutable encrypted blocks, addressable and verifiable by hash
-- **State**: signed append-only events, replayed to reconstruct current files, chat, profiles, and app data
+Nearbytes separates two things that most systems keep together:
 
-The same hub can be reopened across devices and storage locations without depending on a central always-online service.
+- **Storage** — immutable encrypted blocks, addressed and verified by their hash.
+- **State** — signed, append-only events, replayed to reconstruct current files, chat, profiles and application data.
 
+Because state is rebuilt from data rather than held by a server, the same *hub* can be reopened on any device and from any storage location where its encrypted blocks and history are available. No central, always-online service is required.
 
-## Goal
+## What it does
 
-Make private collaboration and backup feel natural by providing an open protocol and usable app that:
-- Keeps users in control of data and keys
-- Avoids platform lock-in and single-service dependency
-- Makes replication, sync, and recovery data-driven and verifiable
-
-## What this project does
-
-- Uses immutable encrypted blocks as the durable storage substrate
-- Uses secret-derived hub identity and signatures for authenticated history
-- Reconstructs current state by replaying signed events (instead of mutating storage in place)
-- Supports transport-agnostic synchronization (local network, shared folders, removable media, cloud-backed folders, and more)
-- Enables friend-to-friend replication where peers can store opaque bytes without controlling hub authority
-- Keeps protocol and implementation open and inspectable
+- Uses immutable encrypted blocks as the durable storage substrate.
+- Derives hub identity from a secret and signs history, so every change is authenticated.
+- Reconstructs state by replaying signed events instead of mutating storage in place.
+- Synchronises over any transport: local network, shared folders, removable media, cloud-backed folders and more.
+- Lets friends replicate each other's data as opaque bytes, without gaining any authority over the hub.
+- Keeps protocol and implementation open and inspectable.
 
 ## Goals
-- **Continuity across devices:** reopen the same hub wherever encrypted data and history are available.
-- **Resilience by redundancy:** backup emerges from replication, not from one provider or one session staying online.
-- **Collaboration without lock-in:** sharing depends on trusted relationships and data validity, not platform membership.
-- **Auditability and recovery:** append-only signed history makes changes inspectable and replayable.
 
-## How to get involved
+- **Continuity across devices** — reopen the same hub wherever its data and history are.
+- **Resilience by redundancy** — backup emerges from replication, not from one provider staying online.
+- **Collaboration without lock-in** — sharing rests on trusted relationships and valid data, not on platform membership.
+- **Auditability and recovery** — append-only signed history makes every change inspectable and replayable.
+- **Users in control** of their data and keys.
 
-- Watch this repository for updates.
-- Open issues for feedback, use cases, and design discussion.
-- Contribute via pull requests to docs, prototypes, and tooling.
+## Roadmap
 
-## Roadmap highlights
+- Evolve the desktop app, the smartphone app and the core specifications in parallel.
+- Add hub projections: files, chat, profiles, and further application protocols.
+- Improve sync, replay performance and storage interoperability.
+- Publish implementation, security and integration documentation.
 
-- Evolve the desktop app, smartphone app, and core specifications in parallel
-- Expand hub projections (files, chat, profiles, and additional app protocols)
-- Improve sync, replay performance, and storage interoperability
-- Publish clearer implementation, security, and integration documentation
+## Get involved
 
-## Contact
+- **Watch** this repository for updates.
+- **Open an issue** for feedback, use cases and design discussion.
+- **Send a pull request** to docs, prototypes and tooling.
 
-Have questions or want to contribute? Open an issue or a pull request and mention the maintainers, or write to vincenzoml at gmail dot com.
+Questions? Open an issue and mention the maintainers, or write to vincenzoml at gmail dot com.
